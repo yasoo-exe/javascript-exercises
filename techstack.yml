@@ -1,0 +1,272 @@
+repo_name: yasoo-exe/javascript-exercises
+report_id: c66848d4e133ba698ecb444b2d5bd3a8
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-02T10:59:05+00:00'
+requested_by: yasoo-exe
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: 01zulfi
+  last_updated_on: 2023-02-20 14:10:10.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 19.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/.travis.yml
+  detection_source: generator-exercise/.travis.yml
+  last_updated_by: Cody Loyd
+  last_updated_on: 2017-08-21 15:28:29.000000000 Z
+- name: Yeoman
+  description: A set of tools for automating development workflow
+  website_url: http://yeoman.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Scaffolding Tools
+  image_url: https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Michael Frank
+  last_updated_on: 2021-03-03 02:13:24.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2023-09-24 09:41:30.000000000 Z
+- name: eslint-config-xo-space
+  description: ESLint shareable config for XO with 2-space indent
+  package_url: https://www.npmjs.com/eslint-config-xo-space
+  version: 0.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16390/default_f1e46d83300118af569c79b07f85830bc788c2d1.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2023-09-24 09:41:30.000000000 Z
+- name: extend
+  description: Port of jQuery.extend for node.js and the browser
+  package_url: https://www.npmjs.com/extend
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16161/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: jest-cli
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-cli
+  version: 19.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: nsp
+  description: The Node Security
+  package_url: https://www.npmjs.com/nsp
+  version: 2.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16235/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: yeoman-assert
+  description: Assert utility from yeoman
+  package_url: https://www.npmjs.com/yeoman-assert
+  version: 3.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16243/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: yeoman-generator
+  description: Rails-inspired generator system that provides scaffolding for your
+    apps
+  package_url: https://www.npmjs.com/yeoman-generator
+  version: 1.1.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15971/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: yeoman-test
+  description: Test utilities for Yeoman generators
+  package_url: https://www.npmjs.com/yeoman-test
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16229/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
+- name: yosay
+  description: Tell Yeoman what to say
+  package_url: https://www.npmjs.com/yosay
+  version: 2.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16124/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/yasoo-exe/javascript-exercises/blob/main/generator-exercise/package-lock.json
+  detection_source: generator-exercise/package.json
+  last_updated_by: Tatiana
+  last_updated_on: 2021-05-08 18:32:47.000000000 Z
